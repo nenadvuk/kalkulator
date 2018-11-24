@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <form name="calculator">
+        <input name="display" id="display" placeholder="0">
+        <br><br>
+        <div class="container">
+            <input type="button" class="dugmad" value="1" onclick="document.calculator.display.value +='1'">
+            <input type="button" class="dugmad" value="2" onclick="document.calculator.display.value +='2'">
+            <input type="button" class="dugmad" value="3" onclick="document.calculator.display.value +='3'">
+            <input type="button" class="dugmad" value="4" onclick="document.calculator.display.value +='4'">
+            <input type="button" class="dugmad" value="5" onclick="document.calculator.display.value +='5'">
+            <input type="button" class="dugmad" value="6" onclick="document.calculator.display.value +='6'">
+            <input type="button" class="dugmad" value="7" onclick="document.calculator.display.value +='7'">
+            <input type="button" class="dugmad" value="8" onclick="document.calculator.display.value +='8'">
+            <input type="button" class="dugmad" value="9" onclick="document.calculator.display.value +='9'">
+            <input type="button" class="dugmad" value="0" onclick="document.calculator.display.value +='0'">
+            <input type="button" class="dugmad" value="." onclick="document.calculator.display.value +='.'">
+            <input type="button" class="dugme" value="AC" onclick="brisi()">
+            <input type="button" class="dugmad" value="+" onclick="saberi()">
+            <input type="button" class="dugmad" value="-" onclick="oduzmi()">
+            <input type="button" class="dugmad" value="*" onclick="pomnozi()">
+            <input type="button" class="dugmad" value="/" onclick="podeli()">
+        </div>
+        <br>
+        <input type="button" id="jednako" class="dugmad" value="=" onclick="document.calculator.display.value = eval(document.calculator.display.value)">
+
+    </form>
+
+    <script>
+        function saberi() { document.calculator.display.value += "+" };
+        function oduzmi() { document.calculator.display.value += "-" };
+        function pomnozi() { document.calculator.display.value += "*" };
+        function podeli() { document.calculator.display.value += "/" };
+        function izracunaj() { document.calculator.display.value += "=" };
+        function brisi() { document.calculator.display.value = "" };
+
+
+
+    </script>
+
+
+</body>
+
+
+</html>
