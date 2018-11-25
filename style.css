@@ -4,7 +4,7 @@ body {
 
 #display {
     height: 100px;
-    width: 407px;
+    width: 405px;
     background-color: black;
     color: white;
     font-size: larger;
@@ -12,18 +12,14 @@ body {
     font-size: 60px;
     margin-left: 100px;
     margin-top: 100px;
+    border: 2px solid darkorange;
 
 }
-
-.calculator {
-    display: block;
-    padding: 100px;
-} 
 
 #jednako {
     height: 50px;
     width: 100px;
-    background-color:greenyellow;
+    background-color:rgb(153, 255, 0);
     text-align: center;
     margin-left: 100px;
     
@@ -35,7 +31,7 @@ body {
 
 
 #jednako:hover {
-    background-color: #a5f173;
+    background-color: #c2ff99;
 
 }
 
