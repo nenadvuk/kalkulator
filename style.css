@@ -13,6 +13,7 @@ body {
     margin-left: 100px;
     margin-top: 100px;
     border: 2px solid darkorange;
+    border-radius: 25px;
 
 }
 
@@ -22,6 +23,9 @@ body {
     background-color:rgb(153, 255, 0);
     text-align: center;
     margin-left: 100px;
+    border: 1px solid black;
+    border-radius: 15px;
+
     
 }
 
@@ -54,6 +58,8 @@ body {
     background-color: grey;
     border: 1px solid black;
     font-size: 30px;
+    border-radius: 15px;
+
     
 }
 
@@ -63,6 +69,8 @@ body {
     height: 50px;
     width: 100px;
     font-size: 30px;
+    border-radius: 15px;
+
 
 }
 
@@ -73,4 +81,5 @@ body {
 .dugmad:hover {
     background-color: #eaeaea;
 }
+
 
